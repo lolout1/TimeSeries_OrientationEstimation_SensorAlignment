@@ -3,11 +3,11 @@
 
 ## Data Preprocessing and Sensor Alignment
 
-One main challenge in the SmartFallMM dataset is variable sampling rates. We address this via:
+One main challenge in the SmartFallMM dataset is variable sampling rates. We address this via
 
 ### Timestamp Extraction and Normalization
 
-All sensor streams are converted to a common base (e.g., seconds from epoch). Skeleton data at 30 fps is assigned synthetic timestamps:
+All sensor streams are converted to a common base (e.g., seconds from epoch). Skeleton data at 30 fps is assigned synthetic timestamps
 
 $$
 t_{skel}[i] = \frac{i}{30.0}, \quad i \in [0, n_{frames}).
@@ -30,16 +30,16 @@ We interpolate each sensor stream to a fixed rate (e.g., 30 Hz) using `interp1
 We find the common intersection time and resample each sensor to that domain. Afterwards, a low-pass Butterworth filter (cutoff 5 Hz) may be applied for denoising.
 
 ![Gyroscope before and after alignment/resampling](figs/gyroscope_raw_vs_processed.png)  
-*Figure: Gyroscope before and after alignment/resampling. (Placeholder figure)*
+*Figure: Gyroscope before and after alignment/resampling. 
 
-![Watch sensor before vs. after DTW alignment](figs/before_alignment_watch before_watch after.png)  
-*Figure: Watch sensor before vs. after DTW alignment. (Placeholder figure)*
+![Watch sensor before vs. after DTW alignment](figs/beforeAfterAlignmentWatch.png)  
+*Figure: Watch sensor before vs. after DTW alignment. 
 
 ![Accelerometer raw vs. processed (S29A07T03)](figs/accelerometer_raw_vs_processed.png)  
-*Figure: Accelerometer raw vs. processed (S29A07T03). (Placeholder figure)*
+*Figure: Accelerometer raw vs. processed (S29A07T03). 
 
-![Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW](figs/gyroscope_raw_vs_processed.png)  
-*Figure: Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW. (Placeholder figure)*
+![Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW](figs/afterAlignBeforeWatch.png)  
+*Figure: Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW. 
 
 ---
 
