@@ -32,13 +32,13 @@ We find the common intersection time and resample each sensor to that domain. Af
 ![Gyroscope before and after alignment/resampling](figs/gyroscope_raw_vs_processed.png)  
 *Figure: Gyroscope before and after alignment/resampling. (Placeholder figure)*
 
-![Watch sensor before vs. after DTW alignment](figs/before_alignment_watch%20before_watch%20after.png)  
+![Watch sensor before vs. after DTW alignment](figs/before_alignment_watch before_watch after.png)  
 *Figure: Watch sensor before vs. after DTW alignment. (Placeholder figure)*
 
 ![Accelerometer raw vs. processed (S29A07T03)](figs/accelerometer_raw_vs_processed.png)  
 *Figure: Accelerometer raw vs. processed (S29A07T03). (Placeholder figure)*
 
-![Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW](figs/after_alignment_watch%20before_watch%20after.png)  
+![Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW](figs/gyroscope_raw_vs_processed.png)  
 *Figure: Comparison after aligning accelerometer and gyroscope data (before DTW) vs. after DTW. (Placeholder figure)*
 
 ---
