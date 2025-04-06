@@ -1,0 +1,23 @@
+Data Statistics
+==============
+
+Accelerometer: data/smartfallmm/young/accelerometer/watch/S31A14T01.csv
+  - Original samples: 225
+Gyroscope: data/smartfallmm/young/gyroscope/watch/S31A14T01.csv
+  - Original samples: 222
+Skeleton: data/smartfallmm/young/skeleton/S31A14T01.csv
+  - Original samples: 292
+  - Wrist joint idx: 9
+
+Sampling frequency: 30.0 Hz
+Filter type: madgwick
+Linear acceleration mode: True
+
+Time Range Statistics
+====================
+
+Watch time range: 0.000 - 4.567 seconds
+Skeleton time range: 0.000 - 265.667 seconds
+Common time range: 0.000 - 4.567 seconds
+Watch samples after alignment: 138
+

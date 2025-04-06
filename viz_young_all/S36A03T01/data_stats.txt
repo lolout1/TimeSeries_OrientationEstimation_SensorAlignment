@@ -1,0 +1,15 @@
+Data Statistics
+==============
+
+Accelerometer: data/smartfallmm/young/accelerometer/watch/S36A03T01.csv
+  - Original samples: 382
+Gyroscope: data/smartfallmm/young/gyroscope/watch/S36A03T01.csv
+  - Original samples: 379
+Skeleton: data/smartfallmm/young/skeleton/S36A03T01.csv
+  - Original samples: 404
+  - Wrist joint idx: 9
+
+Sampling frequency: 30.0 Hz
+Filter type: madgwick
+Linear acceleration mode: True
+
